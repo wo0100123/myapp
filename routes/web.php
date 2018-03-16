@@ -82,7 +82,7 @@ Route::get('/middle',['middleware'=>'login',function(){
 	echo '中间件测试';
 }]);
 
-Route::get('/ses',function(){
+Route::get('/session',function(){
 	return session(['id'=>'aa']);
 });
 
